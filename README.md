@@ -11,6 +11,7 @@ Simple application to Generate Payslip from Excel format to PDF Format.
 - npm instlal express
 
 # Run the Application
+- set Name= [value]  /** value= INDIVIDUAL / NAME(ex. John) **/
 - node index.js
 
 
