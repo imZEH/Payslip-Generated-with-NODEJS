@@ -5,8 +5,7 @@ var name = process.env.Name || 'ALL',
 	Parser = require('parse-xl'),
 	path = require('path'),
 	fs = require('fs'),
-	PDFDocument = require('pdfkit'),
-	_ = require('underscore'),
+	PDFDocument = require('pdfkit')
 	app = express();
 
 	app.listen(3000, function connection(err) {
