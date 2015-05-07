@@ -1,0 +1,17 @@
+{
+  "name": "slip",
+  "version": "1.0.0",
+  "description": "Payslip",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Neil G. Ragadio",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.3",
+    "parse-xl": "^1.0.1",
+    "pdfkit": "^0.7.1",
+    "underscore": "^1.8.3"
+  }
+}
