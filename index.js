@@ -5,7 +5,7 @@ var name = process.env.Name || 'ALL',
 	Parser = require('parse-xl'),
 	path = require('path'),
 	fs = require('fs'),
-	PDFDocument = require('pdfkit')
+	PDFDocument = require('pdfkit'),
 	app = express();
 
 	app.listen(3000, function connection(err) {
@@ -13,6 +13,7 @@ var name = process.env.Name || 'ALL',
 	        console.error('Unable to start Server', 3000);
 	    } else {
 	        console.info('Server started at 3000');
+           console.log('Payslip generated file located at \n'+ PATH);
 	    }
 	});
 
@@ -612,6 +613,7 @@ var name = process.env.Name || 'ALL',
 			}
 		}
 	}
+
 
 	
 
