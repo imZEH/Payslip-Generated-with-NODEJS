@@ -15,4 +15,4 @@ Simple application to Generate Payslip from Excel format to PDF Format.
 - node index.js
 
 
-Questions and comments email me at ngr_24@ymail.com.
+Questions and comments feel free to create an issue to this repository.
